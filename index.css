@@ -1,0 +1,90 @@
+@font-face{
+    src: url('fonts/CursedTimerUlil-Aznm.ttf');
+    font-family: digital;
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    margin: 0;
+}
+
+.container {
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.score-header {
+    color: #EEEEEE;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.score {
+    background: #080001;
+    border-radius: 5px;
+    color: #F94F6D;
+    width: 155px;
+    font-family: digital;
+    font-weight: 400;
+    font-size: 90px;
+    padding: 25px 20px 15px 20px;
+    margin: 21px 0;
+}
+
+.btn {
+    font-family: digital;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -.3rem;
+    color: #9AABD8;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #9AABD8;
+    color: #1B244A;
+}
+
+@keyframes pulseGlow {
+    0% {
+        box-shadow: 0px 0px 0px;
+    }
+    50% {
+        box-shadow: 0px 0px 50px #FB7185;
+    }
+    70% {
+        box-shadow: 0px 0px 50px #FB7185;
+    }
+    100% {
+        box-shadow: 0px 0px 0px;
+    }
+}
+
+.highlight {
+    animation-duration: 2s;
+    animation-name: pulseGlow;
+    animation-iteration-count: infinite;
+}
+
+.new-game {
+    text-align: center;
+}
+
+.new-game-btn {
+    letter-spacing: .0rem;
+    font-size: 24px;
+    padding: 10px 15px 3px 20px;
+}
+
