@@ -14,7 +14,8 @@ h3 {
 }
 
 .container {
-    margin: 100px 0;
+    margin: 100px auto;
+    width: 800px;
     display: flex;
     justify-content: space-around;
     text-align: center;
